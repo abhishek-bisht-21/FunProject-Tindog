@@ -1,0 +1,202 @@
+
+body{
+    text-align: center;
+}
+
+
+.container-fluid{
+    padding: 7% 15% ;
+
+}
+
+ 
+
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+     font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Section */
+
+.coloured-section{
+background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.white-section{
+background-color: #fff;
+}
+
+
+
+/* Navigation bar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.navbar{
+    padding: 0 0 4.5rem ; 
+}
+
+
+.nav-link{
+    font-size: 1.5rem;
+    font-family: "Montserrat-Light";
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+/* Download Buttons */
+.download-btn{
+    margin: 5% 3% 5% 0;
+     font-family: "Montserrat";
+}
+
+/* Title Image */
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+/* Title section */
+
+#title .container-fluid{
+    padding: 3% 7% 15%;
+    text-align: left ;
+}
+
+/* Features Section */
+
+#features{
+
+
+position: relative  ;
+
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+     
+     padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  
+     
+    background-color: #ef8172;
+    
+}
+
+
+.testimonial-text{
+font-size: 3rem;
+line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 7% 14%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+   
+}
+
+.pricing-col{
+    padding: 3% 2% ;
+}
+ 
+.price-text{
+font-size: 3rem ;
+line-height: 1.5;
+
+
+}
+
+
+
+
+/* Footer Section */
+#footer{
+    padding 7% 14%;
+    
+}
+
+.socialicons{
+   
+    margin:20px 10px ;
+    size: 40%;
+}
+
+/* Responsive Design */
+
+@media (max-width:1028px){
+   #title{
+         text-align: center;   
+   }
+   
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
